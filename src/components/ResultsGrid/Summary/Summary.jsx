@@ -12,7 +12,7 @@ export default function Summary({ scores }) {
 							styles[`item-${score.id}`]
 						}`}
 					>
-						<img src={score.icon} width='20' height='20' alt='' />
+						<img src={score.icon} width="20" height="20" alt="" />
 						<h3>{score.category}</h3>
 						<p>
 							<span>{score.value}</span>
@@ -21,7 +21,7 @@ export default function Summary({ scores }) {
 					</li>
 				))}
 			</ul>
-			<button type='button' className='btn btn--primary btn--full'>
+			<button type="button" className="btn btn--primary btn--full">
 				Continue
 			</button>
 		</div>
